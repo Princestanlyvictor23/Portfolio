@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #111111;
+  background-color: #f9f7f1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #f9f7f1;
+  color: #111111;
+}
+
+/* Custom Newspaper Styles */
+.newspaper-border-t {
+  border-top: 1px solid #111;
+}
+
+.newspaper-border-b {
+  border-bottom: 1px solid #111;
+}
+
+.newspaper-border-double {
+  border-bottom: 3px double #111;
+}
+
+/* Drop Cap Effect */
+.drop-cap::first-letter {
+  float: left;
+  font-size: 4.5rem;
+  line-height: 0.85;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+/* Hover Underline Effect for Links */
+.hover-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #8b0000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f7f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Selection */
+::selection {
+  background-color: #d1d5db;
+  color: #000;
+}
+
