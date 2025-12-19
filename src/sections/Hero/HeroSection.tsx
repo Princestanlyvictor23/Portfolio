@@ -45,16 +45,16 @@ const HeroSection = () => {
             </h3>
             
             <div className="flex items-center space-x-4 text-sm font-sans text-gray-500 mb-8">
-              <span className="font-bold text-black uppercase">Bengaluru</span>
+              <span className="font-bold text-black uppercase">Coimbatore</span>
               <span>•</span>
               <span>2+ Years Experience</span>
-              <span>•</span>
-              <span>500+ Connections</span>
+            
+              
             </div>
 
             <div className="prose prose-lg text-gray-800 font-['Lora'] text-justify">
               <p className="drop-cap mb-4">
-                In an era defined by rapid technological shifts, the ability to translate complex Artificial Intelligence capabilities into tangible, scalable products is paramount. Prince Stanly Victor V, based in Bengaluru, stands at this critical juncture, combining product thinking with structured delivery execution.
+                In an era defined by rapid technological shifts, the ability to translate complex Artificial Intelligence capabilities into tangible, scalable products is paramount. Prince Stanly Victor V, based in Coimbatore, stands at this critical juncture, combining product thinking with structured delivery execution.
               </p>
               <p className="mb-4">
                 Specializing in <strong>Agentic AI</strong> and <strong>Generative AI systems</strong>, Prince helps organizations move beyond the hype cycle. His approach focuses on clarity before complexity—ensuring that AI adoption drives measurable business outcomes through rigorous end-to-end delivery management.

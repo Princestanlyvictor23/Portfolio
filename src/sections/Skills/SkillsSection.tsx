@@ -78,31 +78,31 @@ const SkillsSection = () => {
                   <td className="py-3 font-bold">Databricks Certified Generative AI Engineer Associate</td>
                   <td className="py-3 text-gray-600">Databricks</td>
                   <td className="py-3">Dec 2025</td>
-                  <td className="py-3 text-right"><a href="#" className="text-[#8b0000] hover-underline">View →</a></td>
+                  <td className="py-3 text-right"><a href="https://credentials.databricks.com/a5a90d91-e5c8-4419-a58b-9215f70c9e22" className="text-[#8b0000] hover-underline">View →</a></td>
                 </tr>
                 <tr className="border-b border-gray-300">
                   <td className="py-3 font-bold">Salesforce Certified Agentforce Specialist</td>
                   <td className="py-3 text-gray-600">Salesforce</td>
                   <td className="py-3">Apr 2025</td>
-                  <td className="py-3 text-right"><a href="#" className="text-[#8b0000] hover-underline">View →</a></td>
+                  <td className="py-3 text-right"><a href="https://www.salesforce.com/trailblazer/princestanlyvictor" className="text-[#8b0000] hover-underline">View →</a></td>
                 </tr>
                 <tr className="border-b border-gray-300">
                   <td className="py-3 font-bold">Agile with Atlassian Jira</td>
                   <td className="py-3 text-gray-600">Atlassian</td>
                   <td className="py-3">Jun 2025</td>
-                  <td className="py-3 text-right"><a href="#" className="text-[#8b0000] hover-underline">View →</a></td>
+                  <td className="py-3 text-right"><a href="https://www.coursera.org/account/accomplishments/verify/C46DCFB93JZ8" className="text-[#8b0000] hover-underline">View →</a></td>
                 </tr>
                 <tr className="border-b border-gray-300">
                   <td className="py-3 font-bold">Google Project Management</td>
                   <td className="py-3 text-gray-600">Google</td>
                   <td className="py-3">Feb 2025</td>
-                  <td className="py-3 text-right"><a href="#" className="text-[#8b0000] hover-underline">View →</a></td>
+                  <td className="py-3 text-right"><a href="https://www.coursera.org/account/accomplishments/specialization/RSZ3XUUWVUFG" className="text-[#8b0000] hover-underline">View →</a></td>
                 </tr>
                 <tr>
                   <td className="py-3 font-bold">Certified Scrum Master</td>
                   <td className="py-3 text-gray-600">Udemy</td>
                   <td className="py-3">Jan 2025</td>
-                  <td className="py-3 text-right"><a href="#" className="text-[#8b0000] hover-underline">View →</a></td>
+                  <td className="py-3 text-right"><a href="https://www.udemy.com/certificate/UC-9fe815fd-e693-4938-8626-a2c6bd4f31d5/" className="text-[#8b0000] hover-underline">View →</a></td>
                 </tr>
               </tbody>
             </table>

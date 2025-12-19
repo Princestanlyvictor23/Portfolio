@@ -48,7 +48,7 @@ const ExperienceSection = () => {
             <div className="w-full md:w-5/12 text-left md:text-right md:pr-8 order-2 md:order-1">
               <h3 className="font-['Playfair_Display'] text-xl font-bold">Technical Trainer</h3>
               <p className="font-sans text-sm font-bold uppercase tracking-wider text-[#8b0000] mt-1">DT Future Skills</p>
-              <p className="text-gray-600 italic mt-2 text-sm">Internship. Delivered technical training sessions on AI concepts and software fundamentals.</p>
+              <p className="text-gray-600 italic mt-2 text-sm">Delivered technical training sessions on AI concepts and software fundamentals.</p>
             </div>
             <div className="absolute left-0 md:left-1/2 w-3 h-3 bg-gray-400 rounded-full -translate-x-[3px] md:-translate-x-1/2 mt-1 md:mt-0 order-1"></div>
             <div className="w-full md:w-5/12 md:pl-8 text-left order-3 mt-2 md:mt-0">
